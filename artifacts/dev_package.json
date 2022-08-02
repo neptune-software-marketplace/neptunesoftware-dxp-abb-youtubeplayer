@@ -1,0 +1,47 @@
+{
+	"id": "5317AA20-4E12-ED11-BD6E-000D3AB1D9FF",
+	"createdAt": "2022-08-02T10:30:29.320Z",
+	"createdBy": "kristin.eliassen@neptune-software.com",
+	"git": {
+		"targetServers": [],
+		"remote": "https://github.com/neptune-software-marketplace/neptunesoftware-dxp-abb-youtubeplayer",
+		"testServers": []
+	},
+	"name": "neptunesoftware-dxp-abb-youtubeplayer",
+	"description": null,
+	"ver": "22.8.2.1031",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "EEE258E5-B3DE-4754-BFF0-CC2B6E77118D",
+			"ver": "22.8.2.1230",
+			"application": "neptbb_youtube_player_api",
+			"title": "MEDIA",
+			"description": "Youtube Video Player API"
+		}
+	],
+	"api": [],
+	"odataMock": [],
+	"odataSource": [],
+	"dictionary": [],
+	"jsclass": [],
+	"jsscript_group": [],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [],
+	"category": [],
+	"launchpad": [],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"wf_definition": [],
+	"department": [],
+	"script_scheduler": [],
+	"connector": []
+}
