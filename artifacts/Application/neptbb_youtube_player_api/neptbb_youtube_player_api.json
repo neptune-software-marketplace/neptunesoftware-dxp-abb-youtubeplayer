@@ -1,0 +1,549 @@
+{
+	"id": "eee258e5-b3de-4754-bff0-cc2b6e77118d",
+	"createdAt": "2022-02-04T15:51:23.473Z",
+	"createdBy": "luuk.wosten@neptune-software.com",
+	"objects": [
+		{
+			"fieldNo": "ae1e8b2a-d05c-4258-ba6d-3035df603144",
+			"fieldName": "App",
+			"fieldParent": 0,
+			"fieldType": "sap.m.App",
+			"script": "",
+			"customComponent": false,
+			"request": [],
+			"response": [],
+			"attributes": [],
+			"data": [
+				{
+					"fieldNo": "3abf7fc1-9b3b-463f-f275-25416f8b687f",
+					"fieldName": "oPageVideoPlayer",
+					"fieldParent": "ae1e8b2a-d05c-4258-ba6d-3035df603144",
+					"fieldType": "sap.m.Page",
+					"script": "",
+					"customComponent": false,
+					"bindingType": "u",
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "title",
+							"grouping": "Properties",
+							"value": "Detail",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": [
+						{
+							"fieldNo": "3cd19d84-f0d6-469b-fde1-ca3be109466e",
+							"fieldName": "headerPageVideoPlayer",
+							"fieldParent": "3abf7fc1-9b3b-463f-f275-25416f8b687f",
+							"fieldType": "sap.m.Bar",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "position",
+									"grouping": "Parent",
+									"value": "setCustomHeader",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "ca7f338e-f2c7-47a4-c911-aa3b71d47bc4",
+									"fieldName": "Middle",
+									"fieldParent": "3cd19d84-f0d6-469b-fde1-ca3be109466e",
+									"fieldType": "neptune.BarContent",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "position",
+											"grouping": "Parent",
+											"value": "ContentMiddle",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "02fe34bb-638f-4fae-9e96-848572dfe841",
+											"fieldName": "txtHeaderVideoPlayer",
+											"fieldParent": "ca7f338e-f2c7-47a4-c911-aa3b71d47bc4",
+											"fieldType": "sap.m.Title",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "titleStyle",
+													"grouping": "Properties",
+													"value": "H3",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Youtube Player",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								}
+							]
+						},
+						{
+							"fieldNo": "bb38d1ea-0ee6-4e54-a1fe-1a3350663531",
+							"fieldName": "VideoPlayerContainer",
+							"fieldParent": "3abf7fc1-9b3b-463f-f275-25416f8b687f",
+							"fieldType": "sap.m.FlexBox",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "width",
+									"grouping": "Properties",
+									"value": "100%",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "justifyContent",
+									"grouping": "Properties",
+									"value": "Center",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "height",
+									"grouping": "Properties",
+									"value": "100%",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "alignItems",
+									"grouping": "Properties",
+									"value": "Center",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "cfc5c409-2fce-48ad-d3d0-4bac4e510b9f",
+									"fieldName": "htmlDIVVideoPlayer",
+									"fieldParent": "bb38d1ea-0ee6-4e54-a1fe-1a3350663531",
+									"fieldType": "sap.ui.core.HTML",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": [
+										{
+											"fieldNo": "e2b6e446-fa3a-4dd7-85ae-530837f2bd50",
+											"fieldName": "HTMLVideoPlayerTag",
+											"fieldParent": "cfc5c409-2fce-48ad-d3d0-4bac4e510b9f",
+											"fieldType": "neptune.Html",
+											"script": "<div id=\"player\" width = \"100%\" height=\"100%\"></div>",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [],
+											"data": []
+										}
+									]
+								}
+							]
+						},
+						{
+							"fieldNo": "0b26385b-2015-4ef8-d9b5-44a8248479f6",
+							"fieldName": "footerChapter",
+							"fieldParent": "3abf7fc1-9b3b-463f-f275-25416f8b687f",
+							"fieldType": "sap.m.Bar",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "position",
+									"grouping": "Parent",
+									"value": "setFooter",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "afabb369-84da-44ee-e16b-41699a1031a0",
+									"fieldName": "Left",
+									"fieldParent": "0b26385b-2015-4ef8-d9b5-44a8248479f6",
+									"fieldType": "neptune.BarContent",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "position",
+											"grouping": "Parent",
+											"value": "ContentLeft",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "f2f316a0-d85b-4d1b-9d11-7e8641ebd935",
+											"fieldName": "butLoadVideo",
+											"fieldParent": "afabb369-84da-44ee-e16b-41699a1031a0",
+											"fieldType": "sap.m.Button",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "type",
+													"grouping": "Properties",
+													"value": "Emphasized",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "tooltip",
+													"grouping": "Properties",
+													"value": "Load Sample Video",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Load Video",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "press",
+													"grouping": "Events",
+													"value": "loadVideo();",
+													"script": "loadVideo();",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								},
+								{
+									"fieldNo": "08e4ce52-fd50-495b-d602-5e4895c16737",
+									"fieldName": "Middle",
+									"fieldParent": "0b26385b-2015-4ef8-d9b5-44a8248479f6",
+									"fieldType": "neptune.BarContent",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "position",
+											"grouping": "Parent",
+											"value": "ContentMiddle",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "951e2fcb-2e19-44a5-8d52-1ce83a5ea399",
+											"fieldName": "butPauseVideo",
+											"fieldParent": "08e4ce52-fd50-495b-d602-5e4895c16737",
+											"fieldType": "sap.m.Button",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "type",
+													"grouping": "Properties",
+													"value": "Emphasized",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "tooltip",
+													"grouping": "Properties",
+													"value": "Pause Video",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://fa-solid/pause",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "press",
+													"grouping": "Events",
+													"value": "pauseVideo();",
+													"script": "pauseVideo();",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "8108b212-cae7-4bd7-f201-72bfd939c65a",
+											"fieldName": "butPlayVideo",
+											"fieldParent": "08e4ce52-fd50-495b-d602-5e4895c16737",
+											"fieldType": "sap.m.Button",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "type",
+													"grouping": "Properties",
+													"value": "Accept",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "tooltip",
+													"grouping": "Properties",
+													"value": "Play Video",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://fa-solid/play",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "press",
+													"grouping": "Events",
+													"value": "playVideo();",
+													"script": "playVideo();",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "3de5d951-2ff9-4054-8233-1034da64a8d0",
+											"fieldName": "butStopVideo",
+											"fieldParent": "08e4ce52-fd50-495b-d602-5e4895c16737",
+											"fieldType": "sap.m.Button",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "type",
+													"grouping": "Properties",
+													"value": "Reject",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "tooltip",
+													"grouping": "Properties",
+													"value": "Stop Video",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://fa-solid/stop",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "press",
+													"grouping": "Events",
+													"value": "stopVideo();",
+													"script": "stopVideo();",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								},
+								{
+									"fieldNo": "68c668f4-5401-4d8d-a4ef-b5c7c2d151aa",
+									"fieldName": "Right",
+									"fieldParent": "0b26385b-2015-4ef8-d9b5-44a8248479f6",
+									"fieldType": "neptune.BarContent",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "position",
+											"grouping": "Parent",
+											"value": "ContentRight",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "aa0ab892-6387-48e2-ef4d-9936ac475622",
+					"fieldName": "VideoPlayer",
+					"fieldParent": 99999,
+					"fieldType": "neptune.folder",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "b6e9f0df-d6bd-4a87-cf5c-03df93d334d3",
+							"fieldName": "HOW_TO_USE",
+							"fieldParent": "aa0ab892-6387-48e2-ef4d-9936ac475622",
+							"fieldType": "neptune.Script",
+							"script": "file://script/neptune.Script/VideoPlayer/HOW_TO_USE.js",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						},
+						{
+							"fieldNo": "c034b3ae-be83-4fc7-be27-4952365e8f6f",
+							"fieldName": "videoPlayerFunctions",
+							"fieldParent": "aa0ab892-6387-48e2-ef4d-9936ac475622",
+							"fieldType": "neptune.Script",
+							"script": "file://script/neptune.Script/VideoPlayer/videoPlayerFunctions.js",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						},
+						{
+							"fieldNo": "0634c107-9d2b-4a66-8f3f-bc0bc8ae839f",
+							"fieldName": "imgReplaceContent",
+							"fieldParent": "aa0ab892-6387-48e2-ef4d-9936ac475622",
+							"fieldType": "sap.m.Image",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "width",
+									"grouping": "Properties",
+									"value": "15em",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "src",
+									"grouping": "Properties",
+									"value": "https://planet9test.neptune-software.com:8081/media/root/BUILDINGBLOCKS/youTube.png",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "height",
+									"grouping": "Properties",
+									"value": "5em",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": [],
+	"ver": "24.10.25.1247",
+	"application": "neptbb_youtube_player_api",
+	"title": "MEDIA",
+	"description": "Youtube Video Player API",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "C",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_fiori_3",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": "",
+	"cus_theme": "",
+	"css": "",
+	"compiledCss": null,
+	"header": "",
+	"manifest": "",
+	"globalScript": "",
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
+	"generateVersionOnActivation": false,
+	"activationHistoryCount": 0,
+	"apis": [],
+	"package": "5317aa20-4e12-ed11-bd6e-000d3ab1d9ff"
+}

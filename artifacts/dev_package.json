@@ -1,5 +1,5 @@
 {
-	"id": "5317AA20-4E12-ED11-BD6E-000D3AB1D9FF",
+	"id": "5317aa20-4e12-ed11-bd6e-000d3ab1d9ff",
 	"createdAt": "2022-08-02T10:30:29.320Z",
 	"createdBy": "kristin.eliassen@neptune-software.com",
 	"git": {
@@ -13,16 +13,18 @@
 	"enableCICD": true,
 	"apps": [
 		{
-			"id": "EEE258E5-B3DE-4754-BFF0-CC2B6E77118D",
-			"ver": "22.8.2.1230",
+			"id": "eee258e5-b3de-4754-bff0-cc2b6e77118d",
 			"application": "neptbb_youtube_player_api",
 			"title": "MEDIA",
-			"description": "Youtube Video Player API"
+			"description": "Youtube Video Player API",
+			"package": {
+				"id": "5317aa20-4e12-ed11-bd6e-000d3ab1d9ff"
+			}
 		}
 	],
 	"api": [],
-	"odataMock": [],
 	"odataSource": [],
+	"odataMock": [],
 	"dictionary": [],
 	"jsclass": [],
 	"jsscript_group": [],
@@ -40,8 +42,12 @@
 	"systems": [],
 	"doc": [],
 	"wf_notifications": [],
-	"wf_definition": [],
 	"department": [],
 	"script_scheduler": [],
-	"connector": []
+	"wf_definition": [],
+	"connector": [],
+	"events": [],
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": []
 }
